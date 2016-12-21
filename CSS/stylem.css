@@ -1,0 +1,18 @@
+/* CSS PETITE FENETRE */
+
+.container{
+	width: 80%; /* largeur du conteneur */
+}
+
+.entete{
+	height: 200px;
+}
+
+.compte{
+	height: 100%;
+}
+
+.aconnexion{
+	margin-left: 0;
+	margin-right: 5%;
+}

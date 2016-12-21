@@ -1,0 +1,13 @@
+/* CSS MOBILE */
+
+.container{
+	width: 90%; /* largeur du conteneur */
+}
+
+.entete{
+	height: 125px;
+}
+
+h1, h3{
+	font-size: 180%;
+}

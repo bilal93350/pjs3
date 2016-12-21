@@ -1,68 +1,86 @@
 body{
 	background-image : url(../images/Rub_al_Khali_002.jpg);
 	background-repeat: no-repeat;
-	color : white;
+	background-size: 100% 100%;
+}
+
+.container{
+	width: 70%; /* largeur du conteneur */
+	background: #1E584C;
 }
 
 .entete{
-  height: 250px;
+	height: 220px;
 	background-image : url(../images/entete_camelvip.png);
 	background-repeat: no-repeat;
 	background-size : 100% 100%;
 }
 
 .slide{
-  height: 500px;
-  background-image : url(../images/cropped-a-tag-sossusvlei-desert-oasis1-1.jpg);
-  background-repeat: no-repeat;
-  background-size : 100% 100%;
-}
-
-.corps, footer, .butcol{
-  background-color : #1E584C;
-}
-
-.corps{
   height: 100%;
-  padding-bottom: 50px;
-  color:black;
+  /*background-image : url(../images/cropped-a-tag-sossusvlei-desert-oasis1-1.jpg);
+  background-repeat: no-repeat;
+  background-size : 100% 100%;*/
 }
 
-.formulaire, .calendrier{
-  color: black;
-  margin-top: 50px;
-  background-color: white;
+img{
+	height: 100%;
+	width: 100%;
 }
 
-legend{
-  padding-left: 10px;
+.menu{
+	color:white;
 }
 
-.formulaire{
-  padding-top: 40px;
+.btn:hover{
+	color:white;
+	background: #40A497;
 }
 
-.calendrier{
-  padding-bottom: 80px;
+.compte, .option{
+	background: #1E584C;
+	padding-top: 2%; /* espacement entre menu et corps*/
+	height: 600px;
 }
 
-.form1, label{
-  padding-bottom: 20px;
+article{
+	background: white;
+	padding: 1% 0% 5% 4%;
 }
 
-.butcon{
-  margin-right: 10px;
+.acomment{
+		margin-top: 7%;
+}
+
+.aconnexion, .aenregistrer{
+	margin-top: 15%;
+	border:1px solid grey;
+	padding : 0% 5% 0% 5%;
+}
+
+.aconnexion{
+	margin-left: 5%;
+}
+
+.aenregistrer{
+	margin-right: 5%;
+}
+
+label, input{
+	margin-top: 10%;
 }
 
 footer{
+	color:white;
   text-align: right;
+	border-top: 3px white dotted;
 }
 
-.article1{
-  background-color: white;
-  margin-top: 50px;
+.bouton{
+	margin-top: 5%;
+	height: 50px;
 }
 
-.taille{
-  background-color: red;
+table{
+	font-size: xx-small;
 }
