@@ -3,86 +3,243 @@
   <head>
     <meta charset="utf-8">
     <title>Description</title>
-    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <!--<link rel="stylesheet" href="CSS/bootstrap.css">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/style.css">
-    </style>
+    <link rel="stylesheet" href="CSS/carousel.css">
+		<link rel="stylesheet" type="text/css" href="CSS/stylem.css" media="only screen and (max-width: 1024px)" />
+		<link rel="stylesheet" type="text/css" href="CSS/styleh.css" media="only screen and (max-width: 800px)" />
   </head>
   <body>
     <div class="container">
-      <div class="row entete">
+
+      <!-- entete !-->
+      <div class="row entete"></div>
+
+      <!-- slide !-->
+      <div class="row slide">
+        <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Carousel items -->
+            <div class="carousel-inner carousel-zoom">
+                <div class="active item"><img class="img-responsive" src="http://hubchi.com/wp-content/uploads/2015/08/that-desert-tour-3.jpg">
+                  <div class="carousel-caption">
+                  </div>
+                </div>
+                <div class="item"><img class="img-responsive" src="http://simonbeedle.com/wp-content/Camels-Broome-1.jpg">
+                  <div class="carousel-caption">
+                  </div>
+                </div>
+                <div class="item"><img class="img-responsive" src="http://www.visitdubai.com/-/media/images/articles/what-to-do-in-the-desert-al-marmoum/dubai-desert-hero-desktop.jpg">
+                  <div class="carousel-caption">
+                  </div>
+                </div>
+               </div>
+            <!-- Carousel nav -->
+            <a class="carousel-control left" href="#carousel" data-slide="prev">‹</a>
+            <a class="carousel-control right" href="#carousel" data-slide="next">›</a>
+        </div>
+      </div>
+
+      <!-- menu !-->
+      <div class="row menu">
+
+        <div class="col-xs-12 col-md-3 btn bmenu">Connexion</div>
+        <div class="col-xs-12 col-md-3 btn bmenu">Point de recuperation</div>
+        <div class="col-xs-12 col-md-3 btn bmenu">Nos chameaux</div>
+        <div class="col-xs-12 col-md-3 btn bmenu">Mon panier</div>
 
       </div>
 
-      <div class="row slide">
-
+      <!-- corps de texte !-->
+      <div class="row bande">
+        <h1>Nos points de récupération de chameaux</h1>
       </div>
 
       <div class="row">
-
-        <div class="col-xs-12 col-md-3 btn butcol">Connexion
-
+        <div class="col-md-8">
+          <article class="description">
+            <div class="row">
+              <div class="col-md-12">
+                <img class="photo" src="http://www.les3baroudeurs.com/images/normal/carnetderoute2/photo/tunisie/Tunisie20gr.JPG">
+                <div class="texte">
+                  <h1>Dehiba</h1>
+                  <h5>Cet endroit est incroyable. Il est très calme et tranquille avec une vue magnifique sur le lac et des paysages étonnants. Vous avez aussi la possibilité de séjourner au très bon hôtel de Siwa Shali Resort qui est en partenariat...
+                  </h5>
+                </div>
+                <div class="legende">
+                  <div class="col-xs-10">
+                    <img class="icone" src="https://cdn4.iconfinder.com/data/icons/standard-free-icons/139/Profile01-128.png">camelvip
+                    <img class="icone" src="http://icdn.pro/images/fr/h/o/horloge-mur-icone-8440-128.png">31 octobre 2016
+                    <img class="icone" src="https://image.freepik.com/icones-gratuites/noir-de-dossier-ouvert-et-variante-blanc_318-48766.jpg">Non classé
+                    <img class="icone" src="http://www.icone-png.com/png/2/2052.png">Aucun commentaire
+                  </div>
+                  <div class="col-xs-2 detail btn btn-danger">
+                    plus de détails
+                  </div>
+                </div>
+              </div>
+          </article>
+          <div class="ligne"></div>
+          <article class="description">
+            <div class="row">
+              <div class="col-md-12">
+                <img class="photo" src="http://excursionmarrakech.net/wp-content/uploads/2016/04/sahara-desert-africa1.jpg">
+                <div class="texte">
+                  <h1>Sahara</h1>
+                  <h5>Cet endroit est incroyable. Il est très calme et tranquille avec une vue magnifique sur le lac et des paysages étonnants. Vous avez aussi la possibilité de séjourner au très bon hôtel de Siwa Shali Resort qui est en partenariat...
+                  </h5>
+                </div>
+                <div class="legende">
+                  <div class="col-xs-10">
+                    <img class="icone" src="https://cdn4.iconfinder.com/data/icons/standard-free-icons/139/Profile01-128.png">camelvip
+                    <img class="icone" src="http://icdn.pro/images/fr/h/o/horloge-mur-icone-8440-128.png">31 octobre 2016
+                    <img class="icone" src="https://image.freepik.com/icones-gratuites/noir-de-dossier-ouvert-et-variante-blanc_318-48766.jpg">Non classé
+                    <img class="icone" src="http://www.icone-png.com/png/2/2052.png">Aucun commentaire
+                  </div>
+                  <div class="col-xs-2 detail btn btn-danger">
+                    plus de détails
+                  </div>
+                </div>
+              </div>
+          </article>
+          <div class="ligne"></div>
+          <article class="description">
+            <div class="row">
+              <div class="col-md-12">
+                <img class="photo" src="http://www.larousse.fr/encyclopedie/data/images/1006225-D%C3%A9sert_de_Gobi.jpg">
+                <div class="texte">
+                  <h1>Gobi</h1>
+                  <h5>Cet endroit est incroyable. Il est très calme et tranquille avec une vue magnifique sur le lac et des paysages étonnants. Vous avez aussi la possibilité de séjourner au très bon hôtel de Siwa Shali Resort qui est en partenariat...
+                  </h5>
+                </div>
+                <div class="legende">
+                  <div class="col-xs-10">
+                    <img class="icone" src="https://cdn4.iconfinder.com/data/icons/standard-free-icons/139/Profile01-128.png">camelvip
+                    <img class="icone" src="http://icdn.pro/images/fr/h/o/horloge-mur-icone-8440-128.png">31 octobre 2016
+                    <img class="icone" src="https://image.freepik.com/icones-gratuites/noir-de-dossier-ouvert-et-variante-blanc_318-48766.jpg">Non classé
+                    <img class="icone" src="http://www.icone-png.com/png/2/2052.png">Aucun commentaire
+                  </div>
+                  <div class="col-xs-2 detail btn btn-danger">
+                    plus de détails
+                  </div>
+                </div>
+              </div>
+          </article>
         </div>
-        <div class="col-xs-12 col-md-3 btn butcol">Point de recuperation
-
-        </div>
-        <div class="col-xs-12 col-md-3 btn butcol">Nos chameaux
-
-        </div>
-        <div class="col-xs-12 col-md-3 btn butcol">Mon panier
-
-        </div>
-      </div>
-
-        <div class="row corps">
-            <div class="col-md-offset-1 col-md-10 article1">
-              <h1>Sahara</h1>
-              <div class="row">
-                    <a href="#">
-                        <img class="col-md-3 media-object" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Canis_lupus.jpg/260px-Canis_lupus.jpg" alt="Kurt">
-                    </a>
-                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nulla sapien, semper in sodales ac, rutrum at orci. Maecenas vulputate nec tellus sit amet porttitor. Suspendisse congue porta sagittis. Ut erat diam, consectetur sed tempus id, sodales nec felis. Donec sagittis nunc sapien, non consequat nunc ultrices non. Aliquam accumsan ligula ante, non commodo risus sodales a. Vestibulum facilisis, enim in porta fringilla, tortor sapien congue purus, porta consectetur sem turpis vitae mauris. Donec dapibus justo a elit semper, et scelerisque mauris ullamcorper. Maecenas blandit arcu nec euismod pellentesque. Fusce et imperdiet nisi, at suscipit sem. Aliquam pulvinar risus id cursus elementum. Nulla elementum placerat nibh, in dictum enim mollis non. Morbi vehicula eget est et tristique. Aenean condimentum augue id congue convallis. Phasellus congue non tellus nec pretium. Maecenas eu vulputate lacus, eget feugiat odio.
-                </h5>
-            </div>
-            </div>
-            <div class="col-md-offset-1 col-md-10 article1">
-              <h1>Sahara</h1>
-              <div class="row">
-                    <a href="#">
-                        <img class="col-md-3 media-object" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Canis_lupus.jpg/260px-Canis_lupus.jpg" alt="Kurt">
-                    </a>
-                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nulla sapien, semper in sodales ac, rutrum at orci. Maecenas vulputate nec tellus sit amet porttitor. Suspendisse congue porta sagittis. Ut erat diam, consectetur sed tempus id, sodales nec felis. Donec sagittis nunc sapien, non consequat nunc ultrices non. Aliquam accumsan ligula ante, non commodo risus sodales a. Vestibulum facilisis, enim in porta fringilla, tortor sapien congue purus, porta consectetur sem turpis vitae mauris. Donec dapibus justo a elit semper, et scelerisque mauris ullamcorper. Maecenas blandit arcu nec euismod pellentesque. Fusce et imperdiet nisi, at suscipit sem. Aliquam pulvinar risus id cursus elementum. Nulla elementum placerat nibh, in dictum enim mollis non. Morbi vehicula eget est et tristique. Aenean condimentum augue id congue convallis. Phasellus congue non tellus nec pretium. Maecenas eu vulputate lacus, eget feugiat odio.
-                </h5>
-            </div>
-            </div>
-            <div class="col-md-offset-1 col-md-10 article1">
-              <h1>Sahara</h1>
-              <div class="row">
-                    <a href="#">
-                        <img class="col-md-3 media-object" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Canis_lupus.jpg/260px-Canis_lupus.jpg" alt="Kurt">
-                    </a>
-                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nulla sapien, semper in sodales ac, rutrum at orci. Maecenas vulputate nec tellus sit amet porttitor. Suspendisse congue porta sagittis. Ut erat diam, consectetur sed tempus id, sodales nec felis. Donec sagittis nunc sapien, non consequat nunc ultrices non. Aliquam accumsan ligula ante, non commodo risus sodales a. Vestibulum facilisis, enim in porta fringilla, tortor sapien congue purus, porta consectetur sem turpis vitae mauris. Donec dapibus justo a elit semper, et scelerisque mauris ullamcorper. Maecenas blandit arcu nec euismod pellentesque. Fusce et imperdiet nisi, at suscipit sem. Aliquam pulvinar risus id cursus elementum. Nulla elementum placerat nibh, in dictum enim mollis non. Morbi vehicula eget est et tristique. Aenean condimentum augue id congue convallis. Phasellus congue non tellus nec pretium. Maecenas eu vulputate lacus, eget feugiat odio.
-                </h5>
-            </div>
-            </div>
-        </div>
-
+        <div class="col-md-4 option">
           <div class="row">
-            <footer>
-              Droits d'auteur &copy; 2016
-              <a href="http://camelvip.tk/" title="Camel VIP" >
-              <span>Camel VIP</span>
-              </a>
-              . Theme par
-              <a href="http://colorlib.com/wp/travelify/" target="_blank" title="Colorlib" >
-              <span>Colorlib</span>
-              </a> Sponsorise par
-              <a href="http://wordpress.org" target="_blank" title="WordPress">
-              <span>WordPress</span>
-              </a>
-            </footer>
+            <div class="col-md-12">
+              <article class="acalendrier">
+                <h3>Preparez votre voyage !</h3>
+                <table class="table-condensed table-bordered table-striped">
+                        <thead>
+                            <tr>
+                              <th colspan="7">
+                                <span class="btn-group">
+                                    <a class="btn"><i class="icon-chevron-left"></i></a>
+                                	<a class="btn active">December 2016</a>
+                                	<a class="btn"><i class="icon-chevron-right"></i></a>
+                                </span>
+                              </th>
+                            </tr>
+                            <tr>
+                                <th>Su</th>
+                                <th>Mo</th>
+                                <th>Tu</th>
+                                <th>We</th>
+                                <th>Th</th>
+                                <th>Fr</th>
+                                <th>Sa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="muted">29</td>
+                                <td class="muted">30</td>
+                                <td class="muted">31</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>7</td>
+                                <td>8</td>
+                                <td>9</td>
+                                <td>10</td>
+                                <td>11</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>13</td>
+                                <td>14</td>
+                                <td>15</td>
+                                <td>16</td>
+                                <td>17</td>
+                                <td>18</td>
+                            </tr>
+                            <tr>
+                                <td>19</td>
+                                <td class="btn-primary"><strong>20</strong></td>
+                                <td>21</td>
+                                <td>22</td>
+                                <td>23</td>
+                                <td>24</td>
+                                <td>25</td>
+                            </tr>
+                            <tr>
+                                <td>26</td>
+                                <td>27</td>
+                                <td>28</td>
+                                <td>29</td>
+                                <td class="muted">1</td>
+                                <td class="muted">2</td>
+                                <td class="muted">3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+              </article>
+            </div>
+            <div class="col-md-12">
+              <article class="acomment">
+                <h3>Commentaires récents</h3>
+                <ul>
+                  <li>Song dans <a href="#">Momo</a></li>
+                  <li>Song dans <a href="#">Bellegoss</a></li>
+                  <li>Sandlayth dans <a href="#">Lee singe</a></li>
+                  <li>Anonyme dans <a href="#">Tahm Boule</a></li>
+                </ul>
+              </article>
+            </div>
           </div>
-
+        </div>
       </div>
 
+      <!-- footer !-->
+      <footer>
+        Droits d'auteur &copy; 2016
+        <a href="http://camelvip.tk/" title="Camel VIP" >
+        <span>Camel VIP</span>
+        </a>
+        . Theme par
+        <a href="http://colorlib.com/wp/travelify/" target="_blank" title="Colorlib" >
+        <span>Colorlib</span>
+        </a> Sponsorise par
+        <a href="http://wordpress.org" target="_blank" title="WordPress">
+        <span>WordPress</span>
+        </a>
+      </footer>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 </html>
