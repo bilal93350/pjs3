@@ -15,3 +15,12 @@ h1, h3{
 .legende{
 	font-size: 67%;
 }
+
+.boutonfleche{
+	border: 1px solid black;
+	width: 40%;
+}
+
+.photoville{
+	margin-left: 5%;
+}
