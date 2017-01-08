@@ -51,9 +51,13 @@ article{
 }
 
 .acomment{
+		position : relative;
 		margin-top: 7%;
 }
 
+.acomment ul{
+	list-style : none;
+}
 .aconnexion, .aenregistrer{
 	margin-top: 15%;
 	border:1px solid grey;
@@ -167,8 +171,7 @@ h5{
 }
 
 ul li a{
-	float: left;
-	margin-left: 10%;
+	margin-left: 2px;
 }
 
 .carte{
