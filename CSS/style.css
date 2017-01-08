@@ -164,6 +164,11 @@ h5{
 .boutonfleche{
 	border: 1px solid black;
 	width: 20%;
+	
+}
+
+.boutonfleche:hover{
+	color: #fff;
 }
 
 .iconefleche{
@@ -177,3 +182,19 @@ ul li a{
 .carte{
 	background: white;
 }
+
+boutonfleche a {
+	text-decoration: none;
+	color:#000;
+	width : 100%;
+}
+
+a#fleche:hover{
+	color : #fff;
+}
+
+.menu a {
+	color : #fff;
+}
+
+

@@ -29,11 +29,9 @@
 
 }
 
-.map__list{
 
 
-    width: 50%;
-}
+
 
 .map__list a {
 
@@ -46,6 +44,8 @@
 
 }
 
+
+
 .map__list a.is-active{
     color : #db5032;
 
@@ -54,4 +54,5 @@
 
 .map ul li {
     list-style-type: none;
+	width : 30px;
 }

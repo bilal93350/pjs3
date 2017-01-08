@@ -49,6 +49,14 @@
     font-weight:  bold;
 }
 
+.map ul {
+	margin-top : 5px;
+	text-align : center;
+}
 .map ul li {
     list-style-type: none;
+	display : inline;
+	margin-left : 5px;
 }
+
+
