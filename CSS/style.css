@@ -35,7 +35,8 @@ img{
 
 .btn:hover{
 	color:white;
-	background: #40A497;
+	background:  -webkit-gradient(linear, left top, left bottom, from(#b32b0c), to(#cd310d));
+	background: -moz-linear-gradient(top, #b32b0c, #cd310d); 
 }
 
 .compte, .option{
