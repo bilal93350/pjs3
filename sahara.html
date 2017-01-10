@@ -3,15 +3,15 @@
   <head> 
 	<link rel="icon" href="images/logo.ico" />
     <meta charset="utf-8">
-    <title>Connexion</title>
+    <title>Sahara</title>
     <!--<link rel="stylesheet" href="styles/bootstrap.css">-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="styles/calendrier.css" /> 
+	<link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/carousel.css">
 		<link rel="stylesheet" type="text/css" href="styles/stylem.css" media="only screen and (max-width: 1024px)" />
 		<link rel="stylesheet" type="text/css" href="styles/styleh.css" media="only screen and (max-width: 800px)" />
-	<link rel="stylesheet" href="styles/calendrier.css" /> 
- </head>
+  </head>
   <body>
     <div class="container">
 
@@ -50,7 +50,7 @@
       <!-- menu !-->
       <div class="row menu">
 
-        <div class="col-xs-12 col-md-3 btn bmenu">Connexion</div>
+        <a href = "connexion.html"> <div class="col-xs-12 col-md-3 btn bmenu">Connexion</div></a>
         <a href="description.html"><div class="col-xs-12 col-md-3 btn bmenu">Point de recuperation</div></a>
         <a href = "chameaux.html"><div class="col-xs-12 col-md-3 btn bmenu">Nos chameaux</div></a>
         <div class="col-xs-12 col-md-3 btn bmenu">Mon panier</div>
@@ -59,34 +59,39 @@
 
       <!-- corps de texte !-->
       <div class="row">
-        <div class="col-md-8 compte">
-          <article class="acompte">
-            <h1>Mon Compte</h1>
+        <div class="col-md-8">
+          <article class="ville">
+            <h1>Sahara</h1>
             <div class="row">
-              <div class="col-md-6">
-                <h3>Connexion</h3>
-                <article class="aconnexion">
-                  <label for="identifiant" class="control-label">Identifiant : </label>
-                  <input type="identifiant" class="form-control" id="identifiant">
-                  <label for="password" class="control-label">Mot de passe : </label>
-                  <input type="password" class="form-control" id="password">
-                  <div class="bouton"><button class="pull-left btn btn-default">Connexion	</button></div>
-                </article>
+              <div class="col-xs-12">
+                <img class="icone" src="https://cdn4.iconfinder.com/data/icons/standard-free-icons/139/Profile01-128.png"> camelvip  
+                <img class="icone" src="http://icdn.pro/images/fr/h/o/horloge-mur-icone-8440-128.png"> 31 octobre 2016  
+                <img class="icone" src="https://image.freepik.com/icones-gratuites/noir-de-dossier-ouvert-et-variante-blanc_318-48766.jpg"> Non classé  
+                <img class="icone" src="http://www.icone-png.com/png/2/2052.png"> Aucun commentaire  
               </div>
-              <div class="col-md-6">
-                <h3>S'enregistrer</h3>
-                <article class="aenregistrer">
-                  <label for="identifiant" class="control-label">Adresse de messagerie : </label>
-                  <input type="identifiant" class="form-control" id="identifiant">
-                  <label for="password" class="control-label">Mot de passe : </label>
-                  <input type="password" class="form-control" id="password">
-                  <div class="bouton"><button class="pull-left btn btn-default">S'enregistrer	</button></div>
-                </article>
+              <img class="col-md-12 photoville" src="http://excursionmarrakech.net/wp-content/uploads/2016/04/sahara-desert-africa1.jpg">
+              <div class="col-md-12 texteville">
+               Le Sahara est un vaste désert chaud situé dans la partie nord du continent africain. Il s'étend sur 5 000 km de l'océan Atlantique à la mer Rouge et couvre plus de 8 millions de kilomètres carrés1, soit une superficie équivalente à celle de l'Australie et de la Nouvelle-Zélande cumulée. </p><p>Il se prolonge même au-delà de la mer Rouge et les géographes parlent d'un grand désert saharo-arabique. Le Sahara constitue la partie occidentale d'une vaste diagonale sèche qui s'étend des abords du fleuve Sénégal jusqu'en Mongolie.</div>
+              <p></p>
+			  <div class="commentaireville">
+					  <a id="fleche" href="carte.html">
+                <div class="btn btn-defaut boutonfleche">
+                  ◄ Carte
+                </div>
+				</a>
+
+                <h1>Laisser un commentaire</h1>
+                Commentaire<br>
+                <textarea class="col-xs-11" name="name" rows="8" cols="50"></textarea>
+                <br>
+                <div class="col-md-2 btn btn-danger">
+                  Valider
+                </div>
               </div>
             </div>
           </article>
         </div>
-        <div class="col-md-4 option">
+           <div class="col-md-4 option">
           <div class="row">
             <div class="col-md-12">
               <article class="acalendrier">

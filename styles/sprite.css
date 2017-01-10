@@ -1,0 +1,35 @@
+.velo, .voiture, .avion, .pied {
+	height : 50px;
+	width : 50px;
+}
+
+.velo {
+	background : url("../images/sprite.png") 0 0 no-repeat;
+}
+
+.velo:hover {
+	background : url("../images/sprite.png") 0 -52px no-repeat;
+}
+
+.avion {
+	background : url("../images/sprite.png") -51px 0 no-repeat;
+}
+
+.avion:hover {
+	background : url("../images/sprite.png") -51px -52px no-repeat;
+}
+
+.pied {
+	background : url("../images/sprite.png") -102px 0 no-repeat;
+}
+
+.pied:hover {
+	background : url("../images/sprite.png") -102px -52px no-repeat;
+}
+.voiture {
+	background : url("../images/sprite.png") -153px 0 no-repeat;
+}
+
+.voiture:hover {
+	background : url("../images/sprite.png") -153px -52px no-repeat;
+}

@@ -1,8 +1,6 @@
 .map__image {
 
-    //width : 50%;
-
-    flaot : left;
+    border: 1px grey solid;
 }
 
 .map__image path{
@@ -31,8 +29,7 @@
 
 .map__list{
 
-
-    width: 50%;
+    width: 100%;
 }
 
 .map__list a {
@@ -52,6 +49,14 @@
     font-weight:  bold;
 }
 
+.map ul {
+	margin-top : 5px;
+	text-align : center;
+}
 .map ul li {
     list-style-type: none;
+	display : inline;
+	margin-left : 5px;
 }
+
+
