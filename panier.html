@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<link rel="icon" href="images/logo.ico" />
+    <meta charset="utf-8">
+    <title>MonPanier</title>
+    <!--<link rel="stylesheet" href="styles/bootstrap.css">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/carousel.css">
+		<link rel="stylesheet" type="text/css" href="styles/stylem.css" media="only screen and (max-width: 1024px)" />
+		<link rel="stylesheet" type="text/css" href="styles/styleh.css" media="only screen and (max-width: 800px)" />
+    <link rel="stylesheet" href="styles/calendrier.css" />
+  </head>
+  <body>
+    <div class="container">
+
+      <!-- entete !-->
+      <div class="row entete"></div>
+
+      <!-- slide !-->
+      <div class="row slide">
+        <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Carousel items -->
+            <div class="carousel-inner carousel-zoom">
+                <div class="active item"><img class="img-responsive" src="http://hubchi.com/wp-content/uploads/2015/08/that-desert-tour-3.jpg">
+                  <div class="carousel-caption">
+                  </div>
+                </div>
+                <div class="item"><img class="img-responsive" src="http://simonbeedle.com/wp-content/Camels-Broome-1.jpg">
+                  <div class="carousel-caption">
+                  </div>
+                </div>
+                <div class="item"><img class="img-responsive" src="http://www.visitdubai.com/-/media/images/articles/what-to-do-in-the-desert-al-marmoum/dubai-desert-hero-desktop.jpg">
+                  <div class="carousel-caption">
+                  </div>
+                </div>
+               </div>
+            <!-- Carousel nav -->
+            <a class="carousel-control left" href="#carousel" data-slide="prev">‹</a>
+            <a class="carousel-control right" href="#carousel" data-slide="next">›</a>
+        </div>
+      </div>
+
+      <!-- menu !-->
+      <div class="row menu">
+
+        <a href = "connexion.html"> <div class="col-xs-12 col-md-3 btn bmenu">Connexion</div></a>
+        <a href="description.html"><div class="col-xs-12 col-md-3 btn bmenu">Point de recuperation</div></a>
+        <a href = "chameaux.html"><div class="col-xs-12 col-md-3 btn bmenu">Nos chameaux</div></a>
+        <div class="col-xs-12 col-md-3 btn bmenu">Mon panier</div>
+
+      </div>
+
+      <!-- corps de texte !-->
+      <div class="row">
+        <div class="col-md-8">
+          <article class="ville">
+            <h1>Reservation</h1>
+            <div class="row">
+              <div class="col-xs-12">
+                <table class="table table-striped table-bordered">
+                    <thead>
+                    	<tr>
+                        <th></th>
+                        <th></th>
+                        <th>Produit</th>
+                        <th>Prix</th>
+                        <th>Quantité</th>
+                        <th style="width:100px">Total</th>
+                        </tr>
+                	</thead>
+                <tbody>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                	</tr>
+                </tbody>
+                </table>
+              </div>
+              <div class="col-md-6 col-md-offset-6">
+                Total Reservation
+                <table class="table table-striped table-bordered">
+                    <thead>
+                    	<tr>
+                        <th>Sous-Total</th>
+                        </tr>
+                	</thead>
+                <tbody>
+                <td>VAT</td>
+                </tbody>
+                <tbody>
+                <td>Total</td>
+                </tbody>
+                </table>
+                <a class="btn btn-danger" href="#">Procéder à la commande</a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-4 option">
+          <div class="row">
+            <div class="col-md-12">
+              <article class="acalendrier">
+                <h3>Preparez votre voyage !</h3>
+                <div id="calendrier">
+    <div class="tete">
+
+		<span class="left button" id="prev"> &lang; </span> <!-- "〈" -->
+		<span class="left hook"></span> <!-- lien gauche -->
+		<span class="month-year" id="label"> Janvier 2017 </span>
+		<span class="right hook"></span>
+		<span class="right button" id="next"> &rang; </span> <!-- lien droit -->
+
+    </div>
+    <table id="jours">
+
+		<td>LUN</td>
+		<td>MAR</td>
+		<td>MER</td>
+		<td>JEU</td>
+		<td>VEN</td>
+		<td>SAM</td>
+		<td>DIM</td>
+
+
+    </table>
+    <div id="numeros">
+
+		<table class="curr">
+
+			<tbody>
+				<tr>
+					<td class="null"></td><td class="null"></td>
+					<td class="null"></td><td class="null"></td>
+					<td class="null"></td><td class="null"></td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>2</td><td>3</td>
+					<td>4</td><td>5</td>
+					<td>6</td><td>7</td>
+					<td>8</td>
+				</tr>
+				<tr>
+					<td>9</td><td>10</td>
+					<td>11</td><td>12</td>
+					<td class="today">13</td><td>14</td>
+					<td>15</td>
+				</tr>
+				<tr>
+					<td>16</td><td>17</td>
+					<td>18</td><td>19</td>
+					<td>20</td><td>21</td>
+					<td>22</td>
+				</tr>
+				<tr>
+					<td>23</td><td>24</td>
+					<td>25</td><td>26</td>
+					<td>27</td><td>28</td>
+					<td>29</td>
+				</tr>
+				<tr>
+					<td>30</td><td>31</td>
+					<td class="null"></td><td class="null"></td>
+					<td class="null"></td><td class="null"></td>
+					<td class="null"></td>
+				</tr>
+
+			</tbody>
+
+		</table>
+
+    </div>
+
+</div>
+              </article>
+            </div>
+            <div class="col-md-12">
+              <article class="acomment">
+                <h3>Commentaires récents</h3>
+                <ul>
+                  <li>Song dans <a href="#">Momo</a></li>
+                  <li>Song dans <a href="#">Bellegoss</a></li>
+                  <li>Sandlayth dans <a href="#">Lee singe</a></li>
+                  <li>Anonyme dans <a href="#">Tahm Boule</a></li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer !-->
+      <footer>
+        Droits d'auteur &copy; 2016
+        <a href="http://camelvip.tk/" title="Camel VIP" >
+        <span>Camel VIP</span>
+        </a>
+        . Theme par
+        <a href="http://colorlib.com/wp/travelify/" target="_blank" title="Colorlib" >
+        <span>Colorlib</span>
+        </a> Sponsorise par
+        <a href="http://wordpress.org" target="_blank" title="WordPress">
+        <span>WordPress</span>
+        </a>
+      </footer>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
